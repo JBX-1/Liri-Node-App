@@ -65,9 +65,12 @@ function searchSpotify (song) {
             else {
                 console.log("artist: " + data.tracks.items[0].album.artists[0].name);
 			}
-		});
+        });
+        console.log(searchOmdb)
 }
 
+
+// i put in where it only gives me space jam//
 function searchOmdb () {
 
     var movieName =  "http://www.omdbapi.com/?t= space jam  &y=&plot=short&apikey=trilogy";
@@ -95,6 +98,7 @@ function searchOmdb () {
       });
 }
 
+// doesnt take in the information i put in //
 function whateverItSays() {
     
     fs.readFile("random.txt", "utf8", function(error, data) {
