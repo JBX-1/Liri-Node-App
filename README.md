@@ -26,12 +26,6 @@ LIRI is a command-line Node.js application that searches for concert, song, and 
 SPOTIFY_ID=your_spotify_id
 SPOTIFY_SECRET=your_spotify_secret
 
-
-
-
-
-
-
 Commands
 Concert Search
 node liri.js concert-this "Beyonce"
