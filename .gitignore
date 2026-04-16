@@ -1,3 +1,20 @@
-node_modules
-.DS_store
+# Node modules
+node_modules/
+
+# Environment variables (DO NOT expose API keys)
 .env
+
+# Logs
+*.log
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# npm debug logs
+npm-debug.log*
