@@ -1,17 +1,25 @@
 {
-  "name": "clear",
+  "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "### Overview",
-  "main": "index.js",
+  "description": "A command-line Node.js app that searches for concert, song, and movie information using external APIs.",
+  "main": "liri.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node liri.js",
+    "test": "echo \"No tests specified\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JBX-1/Liri-Node-App.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "cli",
+    "spotify",
+    "omdb",
+    "bandsintown"
+  ],
+  "author": "Jonathan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JBX-1/Liri-Node-App/issues"
@@ -20,9 +28,6 @@
   "dependencies": {
     "dotenv": "^6.0.0",
     "node-spotify-api": "^1.0.7",
-    "omdb": "^0.8.0",
-    "request": "^2.88.0",
-    "spotify": "^0.3.0"
-  },
-  "devDependencies": {}
+    "request": "^2.88.0"
+  }
 }
